@@ -1,69 +1,324 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <title>Isabel Chávez</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
-  <link href="https://fonts.googleapis.com/css?family=Athiti:300,400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Isabel Chávez - Ux Designer</title>
 </head>
-<body>
-<div class="image">
-  <div class="portada">
 
-      
-          <a href="#" class="brand-logo left">
-            <img class="logo" width="90px" src="assets/images/triquetra.png" alt="triquetra">
-          </a>
-        
-    <div class="container">
-      <div class="row">
-        <div class="col s12 titulo center-align">
-          <div id="text-animation">Hola! Soy Isabel Chávez</div>
+<body>
+  <div id="index-banner" class="parallax-container valign-wrapper one">
+    <div class="section no-pad-bot" id="header-section">
+      <div class="container center">
+        <img src="assets/images/name.png" class="responsive-img" alt="">
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="assets/images/banner.jpeg" class="responsive-img">
+    </div>
+  </div>
+
+  <div class="container z-depth-5 white-text" id="about">
+    <div class="section">
+      <div class="row"> 
+        <div class="center">
+          <h2 class="tittle-about col s12">Sobre Mi</h2>
+          <br>
+          <br>
+          <div class="col s12 m5" >
+            <img src="assets/images/photo.jpeg" class="circle photo">
+          </div>
+          <div class="col s12 m7" >
+            <p class="light">
+              La curiosidad y las ganas de mejorar el mundo en el que vivo es algo que me ha perseguido desde muy pequeña. Me inspira investigar,
+              indagar, diseñar prototipos y testear en busca de satisfacer las necesidades de los usuarios y descifrar sus modelos mentales
+              para así poder influir en esas decisiones a través de productos y funcionalidades pensados en ellos y en sus necesidades. 
+              <br><br>
+              La curiosidad y las ganas de mejorar el mundo en el que vivo es algo que me ha perseguido desde muy pequeña. Me inspira
+              investigar, indagar, diseñar prototipos y testear en busca de satisfacer las necesidades de los usuarios y descifrar sus
+              modelos mentales para así poder influir en esas decisiones a través de productos y funcionalidades pensados en ellos y en
+              sus necesidades.
+            </p>
+          </div>
+          <br>
+          <br>
         </div>
       </div>
     </div>
   </div>
-</div>
-<main>
-<section id="about" class=" about vh-100 valign-wrapper teal">
-    <div class="container">
-      <div class="row ">
-        <div class="col s12 l12 m12 center-align">
-          <h2 class="muli black-text text-black">Acerca de mí</h2>
+
+  <div class="parallax-container valign-wrapper container">
+    <section>
+      <div class="row">
+        <div class="col s12 col m12 col l12 skills">
+          <div class="display-flex-start margen">
+            <h1 class="skill-text col s12 center">skills</h1>
+          </div>
+    
+          <div class="display-flex-skill  col s12  col l12 hide-on-med-only">
+            <div class="display-flex-column-skill skills-start col s12 col l4">
+              <h4 class="skill-title center"> User Experience</h4>
+              <p class="sub-text black-text center">La interesante tarea de conocer al otro.</p>
+              <div class="square hide-on-large-only"> </div>
+            </div>
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class=" skill-title center">Design Thinking</h4>
+              <p class="sub-text black-text center">Iteración creativa de ideas.</p>
+              <div class="square hide-on-large-only"> </div>
+            </div>
+    
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class=" skill-title center">Figma & Marvel</h4>
+              <p class="sub-text black-text center">Del papel al diseño digital interactivo.</p>
+              <div class="square hide-on-large-only"> </div>
+              <!--<div class="square"> </div>-->
+            </div>
+          </div>
+    
+          <div class="display-flex-skill col s12 col l12 hide-on-med-only">
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class="skill-title center">HTML & CSS</h4>
+              <p class="sub-text black-text center">Orden y estilo para un buen resultado.</p>
+              <div class="square hide-on-large-only"> </div>
+            </div>
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class="skill-title center">Bootstrap & Materialize</h4>
+              <p class="sub-text black-text center">Reinvención a 12 columnas.</p>
+              <div class="square hide-on-large-only"> </div>
+            </div>
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class=" skill-title center"> Javascript & jQuery</h4>
+              <p class="sub-text black-text center">Lógica creativa y divertida.</p>
+              <div class="square hide-on-large-only"> </div>
+            </div>
+          </div>
+    
+          <!--Tablet -->
+    
+          <div class="display-flex-skill  col m12 show-on-medium hide-on-large-only mobile">
+            <div class="display-flex-column-skill skills-start col m12">
+              <h4 class="skill-title"> User Experience</h4>
+              <p class="sub-text black-text">La interesante tarea de conocer al otro.</p>
+              <div class="square show-on-medium-and-down"> </div>
+            </div>
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class=" skill-title">Design Thinking</h4>
+              <p class="sub-text black-text">Iteración creativa de ideas.</p>
+              <div class="square show-on-medium-and-down"> </div>
+            </div>
+    
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class=" skill-title">Figma & Marvel</h4>
+              <p class="sub-text black-text">Del papel al diseño digital interactivo.</p>
+              <div class="square show-on-medium-and-down"> </div>
+              <!--<div class="square"> </div>-->
+            </div>
+          </div>
+    
+          <div class="display-flex-skill col s12 col l12 show-on-medium hide-on-large-only mobile">
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class="skill-title">HTML & CSS</h4>
+              <p class="sub-text black-text">Orden y estilo para un buen resultado.</p>
+              <div class="square show-on-medium-and-down"> </div>
+            </div>
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class="skill-title">Bootstrap & Materialize</h4>
+              <p class="sub-text black-text">Reinvención a 12 columnas.</p>
+              <div class="square show-on-medium-and-down"> </div>
+            </div>
+            <div class="display-flex-column-skill col s12  col l4">
+              <h4 class=" skill-title"> Javascript & jQuery</h4>
+              <p class="sub-text black-text">Lógica creativa y divertida.</p>
+              <div class="square show-on-medium-and-down"> </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row valign-wrapper  phone-about">
-        <div class="col s12 m8 l8">
-          <h5>holaaaaa</h5>
-        </div>
-        <div class="offset-s3 col s6 offset-s3 m4 l4 block">
-          <img class="circle responsive-img " id="profile-img" src="assets/images/ClaudiaGaribotto.jpg" alt="">
+    </section>
+  </div>
+  <!-- portafolio -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <div class="portfolio" id="portfolio">
+            <div class="portfolio-title">
+              <p>Portfolio</p>
+            </div>
+            <div class="card-wrapper center-align">
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/portfolioscrn.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Personal Portfolio Web-Site
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="https://github.com/TsotosA/portfolio" target="_blank" rel="noopener noreferrer">Source Code (GitHub)</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Info
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>A Static Personal portfolio web site!
+                    <br/> Technologies: HTML5 - CSS3 - Javascript - JQuery - Materialise - FontAwesome
+                    <br/>
+                    <ul>
+                      <li>HandCoded With Love</li>
+                      <li>Fully Responsive</li>
+                      <li>Mobile First Design</li>
+                      <li>Smaller Nav on Scroll</li>
+                      <li>Mobile Friendly Full-Screen Overlay Nav</li>
+                      <li>ToolTips for all Icons</li>
+                      <li>Smooth-Scrolling to Section</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Go To Home</a>
+                </div>
+              </div>
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/rgb.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">RGB Color Game
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="https://github.com/TsotosA/rgbcolorgame" target="_blank" rel="noopener noreferrer">Source Code (GitHub)</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Info
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>An RGB Color Game!
+                    <br/> Technologies: HTML5 - CSS3 - Javascript </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://tsotosa.github.io/rgbcolorgame/" target="_blank" rel="noopener noreferrer">Try It Out!</a>
+                </div>
+              </div>
+          
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/todoscrn.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Basic ToDo App
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="https://github.com/TsotosA/todoapp" target="_blank" rel="noopener noreferrer">Source Code (GitHub)</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Info
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>An Basic To-Do App!
+                    <br/>Technologies: HTML5 - CSS3 - JQuery </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://tsotosa.github.io/todoapp/" target="_blank" rel="noopener noreferrer">Try It Out!</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-<section id="skill" class="skill  valign-wrapper amber accent-2 pink">
-    <div class="container">
-        hrytfjgykhulj
+    <div class="parallax secondary-parallax">
+      <img src="assets/images/bg-blur.jpg">
     </div>
-  </section>
-<section id="project" class="project valign-wrapper indigo">
-    <div class="container">
-      <h2>holaaaaa 3</h2>
+  </div>
+<!-- fdfkj -->
+  <!-- <div class="container" id="connect">
+    <div class="section">
+      <div class="row center">
+        <h3>CONNECT WITH ME HAHA NO PLEASE DONT</h3>
+        <div class="col s12 m4">
+          <a href="https://github.com/cvbowes" target="blank">
+            <img class="logo img-circle" src="assets/images/github.png" alt="GitHub">
+          </a>
+        </div>
+        <div class="col s12 m4">
+          <a href="https://www.linkedin.com/in/caroline-bowes-26424713b/" target="blank">
+            <img class="logo img-circle" src="assets/images/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+        <div class="col s12 m4">
+          <a href="http://stackoverflow.com/users/7983375/caroline-bowes?tab=profile" target="blank">
+            <img class="logo img-circle" src="assets/images/stackoverflow.png" alt="Stack Overflow">
+          </a>
+        </div>
+      </div>
     </div>
-  </section>
-  <section id="contac" class="contac vh-100 valign-wrapper pink">
-    <h2>mundodddd</h2>
-  </section>
-</main>
-  <script src="vendors/jquery/jquery.min.js"></script>
-  <script src="vendors/materialize/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
+  </div> -->
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">CAROLINE BOWES</h5>
+          <p class="grey-text text-lighten-5">We are a team of college students working on this project like it's our full time job. Any amount would help support
+            and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+        <p>&copy;2018 Isabel Chávez</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
