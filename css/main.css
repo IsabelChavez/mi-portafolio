@@ -157,6 +157,10 @@ a:hover {
 	line-height: 150%;
 }
 
+.yo{
+    position: relative;
+    bottom: 5rem;
+}
 .photo{
     width: 20rem;
     height: 20rem;
