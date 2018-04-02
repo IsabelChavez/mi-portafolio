@@ -3,34 +3,50 @@
 <head>
   <title>Isabel Chávez</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="assets/images/logo.png" type="image/gif" sizes="22x22">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Raleway:300,400,500,600,700,800,900" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
 <body>
-  <div id="index-banner" class="parallax-container valign-wrapper one">
-    <div class="section no-pad-bot" id="header-section">
-      <div class="container center">
-        <img src="assets/images/name.png" class="responsive-img" alt="">
-      </div>
+  <!-- navbar -->
+  <div class="one" id="cover-page">
+    <div class="navbar-fixed">
+      <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <a href="#cover-page" class="brand-logo"><img src="assets/images/logo.png" alt="logo"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#about">SOBRE MÍ</a></li>
+              <li><a href="#jobs">MIS PROYECTOS</a></li>
+              <li><a href="#contact">CONTÁCTAME</a></li>
+            </ul>
+          </div>
+      </nav>
     </div>
-    <div class="parallax">
-      <img src="assets/images/banner.jpeg" class="responsive-img">
+    <!-- fondo de portada -->
+    <div class="container center name responsive-img">
+      <img src="assets/images/name.png" class="responsive-img" alt="">
+    </div>
+    <div class="col s1 nn">
+      <a href="#about" class="btn-floating btn-large waves-effect waves-light transparent">
+        <i class="fa fa-angle-double-down material-icons"></i>
+      </a>
     </div>
   </div>
-
-  <div class="z-depth-5 white-text" id="about">
+ <!-- sobre mi -->
+  <div class="white-text about" id="about">
     <div class="section">
       <div class="row"> 
         <div class="center">
-          <h2 class="tittle-about col s12">Sobre Mi</h2>
+          <h3 class="tittle-about col s12">Sobre Mi</h3>
           <br>
           <br>
           <div class="col s12 m5 yo" >
-            <img src="assets/images/photo.jpeg" class="circle photo">
+            <img src="assets/images/photo.jpeg" class="circle photo responsive-img">
           </div>
           <div class="col s12 m7" >
             <p class="light">
@@ -50,146 +66,59 @@
       </div>
     </div>
   </div>
-
-  <div class="parallax-container valign-wrapper container">
-    <section>
-      <div class="row">
-        <div class="col s12 col m12 col l12 skills">
-          <div class="display-flex-start margen">
-            <h1 class="skill-text col s12 center">skills</h1>
-          </div>
-    
-          <div class="display-flex-skill  col s12  col l12 hide-on-med-only">
-            <div class="display-flex-column-skill skills-start col s12 col l4">
-              <h4 class="skill-title center"> User Experience</h4>
-              <p class="sub-text black-text center"></p>
-              <div class="square hide-on-large-only"> </div>
-            </div>
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class=" skill-title center">Design Thinking</h4>
-              <p class="sub-text black-text center"></p>
-              <div class="square hide-on-large-only"> </div>
-            </div>
-    
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class=" skill-title center">Figma & Marvel</h4>
-              <p class="sub-text black-text center"></p>
-              <div class="square hide-on-large-only"> </div>
-              <!--<div class="square"> </div>-->
-            </div>
-          </div>
-    
-          <div class="display-flex-skill col s12 col l12 hide-on-med-only">
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class="skill-title center">HTML & CSS</h4>
-              <p class="sub-text black-text center"></p>
-              <div class="square hide-on-large-only"> </div>
-            </div>
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class="skill-title center">Bootstrap & Materialize</h4>
-              <p class="sub-text black-text center"></p>
-              <div class="square hide-on-large-only"> </div>
-            </div>
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class=" skill-title center"> Javascript & jQuery</h4>
-              <p class="sub-text black-text center"></p>
-              <div class="square hide-on-large-only"> </div>
-            </div>
-          </div>
-    
-          <!--Tablet -->
-    
-          <div class="display-flex-skill  col m12 show-on-medium hide-on-large-only mobile">
-            <div class="display-flex-column-skill skills-start col m12">
-              <h4 class="skill-title"> User Experience</h4>
-              <p class="sub-text black-text"></p>
-              <div class="square show-on-medium-and-down"> </div>
-            </div>
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class=" skill-title">Design Thinking</h4>
-              <p class="sub-text black-text"></p>
-              <div class="square show-on-medium-and-down"> </div>
-            </div>
-    
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class=" skill-title">Figma & Marvel</h4>
-              <p class="sub-text black-text"></p>
-              <div class="square show-on-medium-and-down"> </div>
-              <!--<div class="square"> </div>-->
-            </div>
-          </div>
-    
-          <div class="display-flex-skill col s12 col l12 show-on-medium hide-on-large-only mobile">
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class="skill-title">HTML & CSS</h4>
-              <p class="sub-text black-text"></p>
-              <div class="square show-on-medium-and-down"> </div>
-            </div>
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class="skill-title">Bootstrap & Materialize</h4>
-              <p class="sub-text black-text"></p>
-              <div class="square show-on-medium-and-down"> </div>
-            </div>
-            <div class="display-flex-column-skill col s12  col l4">
-              <h4 class=" skill-title"> Javascript & jQuery</h4>
-              <p class="sub-text black-text"></p>
-              <div class="square show-on-medium-and-down"> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
   <!-- portafolio -->
-<div class="z-depth-5" id="portfolio">
+<div class="z-depth-5" id="jobs">
   <div class="section">
     <!--   portfolio section   -->
     <div class="center">
-      <h2>PROJECTS</h2>
+      <h3 class="black-text">Mis Proyectos</h3>
     </div>
-    <div class="row project-row" id="project-row-1">
+    <div class="row project-row center" id="project-row-1">
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
-            <img src="images/sample-1.jpg">
-            <span class="card-title">Card Title</span>
+            <img class="responsive-img viaggio" src="assets/images/viaggio.png">
           </div>
           <div class="card-content">
+            <span class="card-title">Viaggio</span>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
           </div>
           <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
-      </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image">
-            <img src="images/sample-1.jpg">
-            <span class="card-title">Card Title</span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+            <a class="buttonn" href="#">VER DEMO</a>
+            <a class="buttonn" href="#">VER GITHUB</a>
           </div>
       </div>
       </div>
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
-            <img src="images/sample-1.jpg">
-            <span class="card-title">Card Title</span>
+            <img class="movil responsive-img" src="assets/images/moviefai.png">
           </div>
           <div class="card-content">
+            <span class="card-title center">Moviefai</span>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
           </div>
           <div class="card-action">
-            <a href="#">This is a link</a>
+            <a class="buttonn" href="#">VER DEMO</a>
+            <a class="buttonn" href="#">VER GITHUB</a>
+          </div>
+      </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img class="movil responsive-img" src="assets/images/jaku.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Jaku</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a class="buttonn" href="#">VER DEMO</a>
+            <a class="buttonn" href="#">VER GITHUB</a>
           </div>
         </div>
       </div>
@@ -201,7 +130,7 @@
   </div>
 </div>
 <!-- Estructura del footer -->
-  <footer class="page-footer black">
+  <footer class="page-footer black" id="contact">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
