@@ -1,7 +1,7 @@
 
 /* +++++++++++++++++++++++++++++ */
 *{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .one{
@@ -24,9 +24,10 @@
     margin: 0.5rem;
 }
 
-.hide-on-med-and-down li a{
+.ul-two li a{
     background: black;
     margin: 0.5rem;
+    font-family: 'Oslawd', sans-serif;
 }
 
 .name img{
@@ -34,7 +35,7 @@
 }
 
 .name{
-    padding-top: 5rem;
+    padding-top: 8rem;
 }
 
 /* SCROLL DOWN ARROW */
@@ -55,34 +56,43 @@
 #about, #portfolio, #connect {
 	background: #5c2c3e;
     width: 100%;
-	padding: 5%;
 	line-height: 150%;
 }
 
 /* sobre mi */
-.yo{
-    position: relative;
-    bottom: 5rem;
-}
+
 .photo{
     width: 16rem;
     height: 16rem;
 }
 
 .tittle-about {
-    margin-bottom: 5rem;
+    padding-top: 3rem !important;
+    font-family: 'Oslawd', sans-serif;
 }
 
-.light{
-    font-family: 'Raleway', sans-serif;
-
+.phone-about{
+    padding-left: 15rem;
 }
 
 .about{
     height: 100vh;
 }
 
+
 /* portafolio */
+
+.portfolio{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.black-text{
+    font-family: 'Oslawd', sans-serif;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+
 .card {
     width: 60vw;
     min-width: 250px;
@@ -118,10 +128,12 @@
 
 .card-title{
     font-weight: bold !important;
+    font-family: 'Oslawd', sans-serif;
 }
 .buttonn{
     color: #5c2c3e !important;
     font-weight: bold;
+    font-family: 'Oslawd', sans-serif;
 }
 
 @media screen and (min-width: 800px) {
@@ -134,3 +146,17 @@
         padding-top: 5%;
     }
 }
+
+/* skilss */
+.skills{
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 6rem;
+    padding-top: 2rem;
+}
+
+.skills div h5{
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+  

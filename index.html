@@ -18,8 +18,10 @@
     <div class="navbar-fixed">
       <nav class="transparent z-depth-0">
           <div class="nav-wrapper">
-            <a href="#cover-page" class="brand-logo"><img src="assets/images/logo.png" alt="logo"></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="#cover-page" class="brand-logo"><img src="assets/images/logo.png" alt="logo"></a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down ul-two">
               <li><a href="#about">SOBRE MÍ</a></li>
               <li><a href="#jobs">MIS PROYECTOS</a></li>
               <li><a href="#contact">CONTÁCTAME</a></li>
@@ -40,34 +42,57 @@
  <!-- sobre mi -->
   <div class="white-text about" id="about">
     <div class="section">
-      <div class="row"> 
-        <div class="center">
-          <h3 class="tittle-about col s12">Sobre Mi</h3>
-          <br>
-          <br>
-          <div class="col s12 m5 yo" >
-            <img src="assets/images/photo.jpeg" class="circle photo responsive-img">
+        <div class="row ">
+          <div class="col s12 l12 m12 center-align">
+            <h4 class="tittle-about">SOBRE MÍ</h4>
           </div>
-          <div class="col s12 m7" >
-            <p class="light">
-              La curiosidad y las ganas de mejorar el mundo en el que vivo es algo que me ha perseguido desde muy pequeña. Me inspira investigar,
-              indagar, diseñar prototipos y testear en busca de satisfacer las necesidades de los usuarios y descifrar sus modelos mentales
-              para así poder influir en esas decisiones a través de productos y funcionalidades pensados en ellos y en sus necesidades. 
-              <br><br>
-              La curiosidad y las ganas de mejorar el mundo en el que vivo es algo que me ha perseguido desde muy pequeña. Me inspira
-              investigar, indagar, diseñar prototipos y testear en busca de satisfacer las necesidades de los usuarios y descifrar sus
-              modelos mentales para así poder influir en esas decisiones a través de productos y funcionalidades pensados en ellos y en
-              sus necesidades.
+        </div>
+        <div class="row valign-wrapper  phone-about">
+          <div class="col s12 m8 l8">
+            <p>La curiosidad y las ganas de mejorar el mundo en el que vivo es algo que me ha perseguido desde muy pequeña. Soy de aquellas personas que siempre anda buscando la solución a los problemas más cotidianos de la vida. Me apasiona la investigación, es por ello que encontré mi vocación con UX Designer en Laboratoria. Asimismo, también disfruto de colaborar con labores sociales, es por ello que soy aspirante a bombero voluntario en mi distrito.
+              <br>
+            La curiosidad y las ganas de mejorar el mundo en el que vivo es algo que me ha perseguido desde muy pequeña. Soy de aquellas personas que siempre anda buscando la solución a los problemas más cotidianos de la vida. Me apasiona la investigación, es por ello que encontré mi vocación con UX Designer en Laboratoria. Asimismo, también disfruto de colaborar con labores sociales, es por ello que soy aspirante a bombero voluntario en mi distrito.
             </p>
           </div>
-          <br>
-          <br>
+          <div class="offset-s3 col s6 offset-s3 m4 l4 block">
+            <img class="circle responsive-img photo" src="assets/images/photo.jpeg" alt="">
+          </div>
         </div>
-      </div>
+    </div>
+          <br>
+          <br>
+          <!-- skilss -->
+        <div class="row">
+          <div class="skills black">
+              <div class="row">
+                <h5 class="center col m12">MIS SKILLS</h4>
+                <div class="col s12 m3 center">
+                  <i class="fa fa-4x fa-paint-brush"></i>
+                  <h5>Beautiful Design</h5>
+                  <p>Every website is beautiful, unique and tailored to suit your needs and requirements.</p>
+                </div>
+                <div class="col s12 m3 center">
+                  <i class="fa fa-4x fa-code"></i>
+                  <h5>Clean Code</h5>
+                  <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
+                </div>
+                <div class="col s12 m3 center">
+                  <i class="fa fa-4x fa-tablet"></i>
+                  <h5>Always Responsive</h5>
+                  <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
+                </div>
+                <div class="col s12 m3 center">
+                  <i class="fa fa-4x fa-code"></i>
+                  <h5>Clean Code</h5>
+                  <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
   </div>
   <!-- portafolio -->
-<div class="z-depth-5" id="jobs">
+<div class="z-depth-5 portfolio" id="jobs">
   <div class="section">
     <!--   portfolio section   -->
     <div class="center">
@@ -80,13 +105,12 @@
             <img class="responsive-img viaggio" src="assets/images/viaggio.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Viaggio</span>
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
+            <span class="card-title center">Viaggio</span>
+            <p>Viaggio es un producto pensado y diseñado para asegurar la comodidad y el buen servicio de los pasajeros que viajan en bus. Asimismo, dentro de este website vas a poder hacer una comparación de los diversos servicios de buses para así poder hacer una mejor elección.</p>
           </div>
           <div class="card-action">
-            <a class="buttonn" href="#">VER DEMO</a>
-            <a class="buttonn" href="#">VER GITHUB</a>
+            <a class="buttonn" href="https://marvelapp.com/2jgha7h/screen/38636406" target="_blank">VER DEMO</a>
+            <a class="right buttonn" href="https://github.com/IsabelChavez/reto-buses" target="_blank">VER GITHUB</a>
           </div>
       </div>
       </div>
@@ -97,12 +121,11 @@
           </div>
           <div class="card-content">
             <span class="card-title center">Moviefai</span>
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
+            <p>Movifai es un website que te permite ver películas. Lo particular de este producto es que te recomendamos películas de acuerdo a tu estado de ánimo. Asimismo, puedes buscar las peli que quieras. Todo esto con el objetivo de brindar rapidéz al usuario al momento de escoger.</p>
           </div>
           <div class="card-action">
-            <a class="buttonn" href="#">VER DEMO</a>
-            <a class="buttonn" href="#">VER GITHUB</a>
+            <a class="buttonn" href="https://victorialung.github.io/project-movifai" target="_blank">VER DEMO</a>
+            <a class="right buttonn" href="https://github.com/IsabelChavez/project-movifai" target="_blank">VER GITHUB</a>
           </div>
       </div>
       </div>
@@ -112,13 +135,12 @@
             <img class="movil responsive-img" src="assets/images/jaku.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Jaku</span>
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
+            <span class="card-title center">Jaku</span>
+            <p>Jaku es una red social diseña para personas que esten interesadas en realizar deportes. Te permitirá contactar con personas que tengan tus mismos intereses. Podrás compartir tus ejercicios, rutinas, dietas, recetas y motivaciones, asimismo también podrás ver el día a día de tus amigos.</p>
           </div>
           <div class="card-action">
-            <a class="buttonn" href="#">VER DEMO</a>
-            <a class="buttonn" href="#">VER GITHUB</a>
+            <a class="buttonn" href="https://isabelchavez.github.io/red-social-jaku/" target="_blank">VER DEMO</a>
+            <a class="right buttonn" href="https://github.com/IsabelChavez/red-social-jaku" target="_blank">VER GITHUB</a>
           </div>
         </div>
       </div>
@@ -134,7 +156,7 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
+          <h5 class="white-text">Contáctame!</h5>
           <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
         </div>
         <div class="col l4 offset-l2 s12">
