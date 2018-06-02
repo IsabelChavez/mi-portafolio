@@ -15,16 +15,17 @@
 /* navbar */
 
 .nav-wrapper{
-    padding-left: 8rem;
-    padding-right: 8rem; 
+    padding-left: 3rem;
+    padding-right: 3rem; 
+    padding-top: 2rem;
 }
 
-.ul-two li a{
-    margin: 0.5rem;
+.mmnn li a{
     font-family: 'Raleway', sans-serif;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-weight: 700;
     color: #f1888b;
+    text-align: left;
 }
 
 .name img{
