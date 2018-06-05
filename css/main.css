@@ -129,14 +129,12 @@
 
 .text {
   color: white;
-  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transition: 0.2s ease;
-  text-align: center;
   opacity: 0;
   font-family: 'Oswald', sans-serif;
 }
@@ -195,9 +193,12 @@
 }
 
 .buttonn{
-    color: #5c2c3e !important;
-    font-weight: bold;
     font-family: 'Oslawd', sans-serif;
+    background: #201e3200;
+    border: 3px solid #201e32;
+    color: #201e32;
+    font-weight: bold;
+    border-radius: 0.5em;
 }
 
 @media screen and (min-width: 800px) {
