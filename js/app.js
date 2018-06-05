@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$('.sidenav').sidenav();
 
-    $('.parallax').parallax();
+	$('.parallax').parallax();
 
     $('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
